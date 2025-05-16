@@ -54,6 +54,18 @@ pip install -r requirements.txt
 ```bash
 python3 bot.py
 ```
+---
+
+## 🐳 Run with Docker
+
+Make sure you have a `.env` file in the root directory.
+
+### Build the image
+
+```bash
+docker build -t CuddleBot .
+```
+
 ## 📂 Project Structure
 ```
 .
